@@ -6,6 +6,7 @@ import Hero from "./sections/Hero";
 function LandingPage() {
   return (
     <main>
+      <div>Ini Landing Page</div>
       <Descriptions />
       <Destinations />
       <Hero />
