@@ -10,6 +10,11 @@ const Inter = localFont({
   variable: "--font-inter",
   weight: "100 900",
 });
+const MetalMania = localFont({
+  src: "./fonts/MetalMania-Regular.ttf",
+  variable: "--font-metalmania",
+  weight: "100 900",
+})
 
 export const metadata: Metadata = {
   title: "Go Explore",
@@ -23,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${Inter.variable} text-black bg-white`}>
+      <body className={`${Inter.variable} ${MetalMania.variable} text-black bg-white`}>
         <Navbar />
         <main className="overflow-hidden">{children}</main>
         <Footer />
