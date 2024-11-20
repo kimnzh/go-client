@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 
-// Components untuk carousel
+// Components untuk Scroll Gallery
 const ScrollGallery = () => {
   // Sample images - replace with your actual images
   const images = [
@@ -50,7 +50,7 @@ const ScrollGallery = () => {
 function Destinations() {
   return (
     <>
-      <main className="px-10 min-h-screen">
+      <div className="px-10 min-h-screen">
         <h1 className="flex justify-center text-[100px] font-bold py-10">
           Destinations
         </h1>
@@ -62,7 +62,7 @@ function Destinations() {
             </h1>
           </button>
         </div>
-      </main>
+      </div>
     </>
   );
 }
