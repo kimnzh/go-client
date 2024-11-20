@@ -57,7 +57,7 @@ const BookATour = () => {
           </div>
         ))}
       </div>
-      <button className="mt-48 rounded-[16px] flex w-56 h-20    bg-[#68875B]">
+      <button className="mt-48 rounded-[16px] flex w-56 h-20 bg-[#68875B]">
         <h1 className="m-auto text-4xl text-white font-semibold">Book</h1>
       </button>
     </main>

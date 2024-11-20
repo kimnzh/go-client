@@ -17,6 +17,12 @@ const Righteous = localFont({
   weight: "100 900",
 });
 
+const Lexend = localFont({
+  src: "./fonts/Lexend.ttf",
+  variable: "--font-lexend",
+  weight: "100 900",
+});
+
 export const metadata: Metadata = {
   title: "Go Explore",
   description: "Go Explore",
@@ -30,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Inter.variable} ${Righteous.variable} text-black bg-white`}
+        className={`${Inter.variable} ${Righteous.variable} ${Lexend.variable} text-black bg-white`}
       >
         <Navbar />
         <main className="overflow-hidden">{children}</main>
