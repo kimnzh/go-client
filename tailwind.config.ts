@@ -12,6 +12,7 @@ export default {
         Inter: ["var(--font-inter)", "sans-serif"],
         Righteous: ["var(--font-righteous)", "sans-serif"],
         Lexend: ["var(--font-lexend)", "sans-serif"],
+        inter: ["var(--font-inter)", "sans-serif"],
       },
       colors: {
         background: "var(--background)",
