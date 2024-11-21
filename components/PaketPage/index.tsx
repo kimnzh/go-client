@@ -15,7 +15,7 @@ const PaketPage = () => {
     setSelectedDate(date);
   };
   return (
-    <main className="px-16 pt-28">
+    <main className="px-16 pt-40 pb-12">
       <div className="flex">
         <Calendar
           onDateSelect={handleDateSelect}

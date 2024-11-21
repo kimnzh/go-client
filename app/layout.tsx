@@ -14,7 +14,7 @@ const MetalMania = localFont({
   src: "./fonts/MetalMania-Regular.ttf",
   variable: "--font-metalmania",
   weight: "100 900",
-})
+});
 
 const Righteous = localFont({
   src: "./fonts/Righteous.ttf",
@@ -41,9 +41,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Inter.variable} ${MetalMania.variable} ${Righteous.variable} ${Lexend.variable} text-black bg-white`}
+        className={`${Inter.variable} ${MetalMania.variable} ${Righteous.variable} ${Lexend.variable} text-black bg-white min-h-screen`}
       >
-
         <Navbar />
         <main className="overflow-hidden">{children}</main>
         <Footer />

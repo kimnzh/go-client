@@ -1,15 +1,20 @@
 import React from "react";
 
 function Hero() {
-  return(
-  <section className="hero" id="home">
-  <div className="content">
-      <h1>Explore Indonesia with<span> GoExplore!</span></h1>
-      <div className="container">
-          <a href="#" className="cta">Discover More</a>
+  return (
+    <section className="hero" id="home">
+      <div className="content w-full">
+        <h1 className="font-semibold">
+          Explore Indonesia with<span> GoExplore!</span>
+        </h1>
+        <div className="w-full text-end pr-64 pt-20">
+          <a href="#" className="cta">
+            Discover More
+          </a>
+        </div>
       </div>
-  </div>
-</section>);
+    </section>
+  );
 }
 
 export default Hero;

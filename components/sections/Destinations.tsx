@@ -50,7 +50,7 @@ const ScrollGallery = () => {
 function Destinations() {
   return (
     <>
-      <div className="px-10 min-h-screen">
+      <div id="destination" className="px-10 min-h-screen">
         <h1 className="flex justify-center text-[100px] font-bold py-10">
           Destinations
         </h1>

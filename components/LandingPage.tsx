@@ -6,9 +6,9 @@ import Hero from "./sections/Hero";
 function LandingPage() {
   return (
     <main>
+      <Hero />
       <Descriptions />
       <Destinations />
-      <Hero />
     </main>
   );
 }
