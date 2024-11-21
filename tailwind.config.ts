@@ -9,8 +9,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        Inter: ["var(--font-inter)", "sans-serif"],
+        Righteous: ["var(--font-righteous)", "sans-serif"],
+        Lexend: ["var(--font-lexend)", "sans-serif"],
         inter: ["var(--font-inter)", "sans-serif"],
-        metalmania: ["var(--font-metalmania)", "sans-serif"],
       },
       colors: {
         background: "var(--background)",

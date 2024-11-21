@@ -16,6 +16,18 @@ const MetalMania = localFont({
   weight: "100 900",
 })
 
+const Righteous = localFont({
+  src: "./fonts/Righteous.ttf",
+  variable: "--font-righteous",
+  weight: "100 900",
+});
+
+const Lexend = localFont({
+  src: "./fonts/Lexend.ttf",
+  variable: "--font-lexend",
+  weight: "100 900",
+});
+
 export const metadata: Metadata = {
   title: "Go Explore",
   description: "Go Explore",
@@ -28,7 +40,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${Inter.variable} ${MetalMania.variable} text-black bg-white`}>
+      <body
+        className={`${Inter.variable} ${MetalMania.variable} ${Righteous.variable} ${Lexend.variable} text-black bg-white`}
+      >
+
         <Navbar />
         <main className="overflow-hidden">{children}</main>
         <Footer />
